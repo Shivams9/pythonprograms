@@ -1,0 +1,12 @@
+#Factorial Numbers are Revrse Multiplication
+
+n= int(input("Enter The Number"))     #for i in range(n,0,-1):     <-----for Accending Order 1,2,3,4,5 = 120---->
+
+fact =1 
+for i in range(1,n+1):
+    fact = fact*i 
+print(fact)    
+
+#OutPut : Enter The Number 5 == 120   <------ (5*4=20, 20*3=60, 60*2=120)=  5,4,3,2,1 Decending order --->
+
+
