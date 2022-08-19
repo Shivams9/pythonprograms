@@ -1,0 +1,43 @@
+# for i in range(Start Point, To The Point Of Print Value -1, End Point)
+#<---------Print Numbers 1 To 10 InCreasing Order------>
+#(Start , Last , GAP):
+
+for i in range(1,11,1):
+    print(i,end=",")  # end="," For Output inLine , aur i Counter value iske jagah kuch bhi taken hai
+    
+#output = 1,2,3,4,5,6,7,8,9,10 
+    
+    #<------Reverse Of A Given Numbers (DeCreasing Order) :------>
+    
+    for i in range(20,12,-2):               #Bich wali Value se minus keya hua value se age tk print hoga. {ex: (12-2=14)}
+    print(i,end=",")
+    
+    #output : 20,18,16,14
+    
+    
+#    Table of A Given Numbers
+
+for i in range(2,22,2):                     #2 se start hoke 20 tak print karega aur 2 ka gap lega 
+    print(i,end=",")
+    
+    #output = 2,4,6,8,10,12,14,16,18,20
+    
+    
+    #<-----List aur String Value Print----->
+    list1 = ["Shivam", "Singh", "Samrat"]
+        for i in list1:
+            print(i)
+            
+     #OutPut: Shivam
+              Singh
+              Samrat
+              
+ #<---------------Condition In For Looop------------>
+      items = [nt,float,"Shivam",2,44,6,8,12]    #Randomly take values
+      for i in items:            # i is Counter and Count in items
+          if str(i).isnumeric() and i>6:      # str is show string value and isnumeric take numbers i jo ki counter hai count karega 6 se bda value aur print karega 
+              print(i,end=",")
+              
+       #Output : 44,8,12       
+           
+            
