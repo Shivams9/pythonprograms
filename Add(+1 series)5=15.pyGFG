@@ -1,0 +1,7 @@
+n=5  #take any number
+print(n*(n+1)//2)              #Given n mtlb digit multply by digit plus one divided by 2 = total addition number
+#return(n*(n+1)//2)            #Return Function return the given value, and Print function  used to print the value
+
+
+
+#output = 15 1+2+3+4+5 =15
