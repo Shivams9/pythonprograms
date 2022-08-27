@@ -1,0 +1,4 @@
+i = 1 #1 se suru karo 2 chodke age badho odd print hoga
+while (i<10+2):
+    print("print odd:",i)
+    i = i+2
