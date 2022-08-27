@@ -1,0 +1,6 @@
+i = 0    #i se suru hokar 1se chota tak print karega 
+while (i<10):   #10-1 = se 1 kam tak print hoga
+    print(i,end=",")
+    i = i+1
+    
+    #Output : 1,2,3,4,5,6,7,8,9
