@@ -1,0 +1,27 @@
+These function used to store and add data in a list:
+
+1).append
+2).extend
+3).insert
+
+
+1)lst=[1,2,3]
+  print(lst)
+  lst.append(4,5)  #=[1,2,3,4,5]
+  b=[6,7]
+  lst.apend(b) #=[1,2,3,4,5,[6,7]]  
+
+ 
+2)b = ([6,7])  #create list and make it on same way
+ lst.extend(b)    #=[1,2,3,4,5,6,7]
+
+
+3) .insert function is to store data on the position you want to be
+a = [1,2,3]
+print(a)
+a.insert(0,12)  #zero position interchange and zero position will move +1 to the next
+print(a)
+
+#output : [12,1,2,3]
+ 
+
