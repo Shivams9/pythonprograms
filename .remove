@@ -2,8 +2,11 @@ a = [1,0,0,4]
 a.insert(1,5)
 # print(a)
 a.insert(2,5)
-a.remove(0)
-a.remove(0)
+a.remove(0)       #   .remove   function delete the number of given the list
+#a.remove(0)
+a.pop(3)           # .pop position ko delete karta hai jis position ka data hoga vo
 print(a)
+
+
 
 #Output = [1,5,5,4]
