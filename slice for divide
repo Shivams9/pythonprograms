@@ -1,0 +1,7 @@
+#Slice using for cutpeace of element in a list or string 
+a =[1,2,3,4,5]
+# a[:2]       #for left element
+print(a[2:])    #for right element
+
+
+#output : [1,2] left  & Right =[3,4,5]
