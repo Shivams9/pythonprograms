@@ -1,0 +1,9 @@
+a = [1,0,0,4]
+a.insert(1,5)
+# print(a)
+a.insert(2,5)
+a.remove(0)
+a.remove(0)
+print(a)
+
+#Output = [1,5,5,4]
