@@ -1,0 +1,63 @@
+#Use cases:
+
+#·  Sourabh has two vehicle, one is honda accord car and another is Ducati Bike
+
+#·  Honda accord car runs on fuel called diesel
+
+#·  Ducati runs on fuel called petrol
+
+#·  Ducati is used and imported vehicle
+
+#·  Honda accord is new and made in India
+
+#Python-3
+class Vehicle:  #class function crate
+    def __init__(self, fuel, Noofwheel, vehicletypename, used_unused, importedtype_local, brand):   #spelling read it init with double slace use
+        self.fuel = fuel
+        self.Noofwheel = Noofwheel
+        self.vehicletypename = vehicletypename
+        self.used_unused = used_unused
+        self.importedtype_local = importedtype_local
+        self.brand = brand
+
+    def __str__(self):
+        return "Fuel: {0}, Noofwheel:{1}, vehicletypename: {2} , importedtype: {3}, Used/Unused: {4}, Brand: {5}".format(
+            self.fuel, self.Noofwheel,
+            self.vehicletypename,
+            self.used_unused, self.importedtype_local, self.brand)
+v1 = Vehicle("Petrol", 2, "Bike", "Imported", "imported", "Ducati")
+v2 = Vehicle("Diesel", 4, "Car", "Made In India", "imported", "Honda City")
+print(v1,v2)
+
+class Person:
+    def __init__(self, name,age , address,myvehicles):
+        self.name = name
+        self.age = age
+        self.address = address
+        self.myvehicles=myvehicles
+    def __str__(self):
+        ve=""
+        for v in self.myvehicles:
+            ve += str(v)
+        return "name: {0}, age:{1}, address: {2}  , Vehicles:{3}".format(
+            self.name,
+            self.age,
+            self.address,ve )
+
+p1= Person("Sourabh", 21, "XYZ",[v1,v2])
+print(p1)
+
+
+
+
+class Rohan:
+    def __init__(self,brand,glass):
+        self.brand = brand
+        self.glass
+
+    def __str__(self):
+        return "brand: {0}, glass:{1}".format(
+            self.brand,self.glass
+        )
+R1 = Rohan("Lenscart", 1)
+print(R1)
