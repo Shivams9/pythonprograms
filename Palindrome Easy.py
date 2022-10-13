@@ -10,3 +10,7 @@ else:
     
     
     #Output : MadaM ,NamaN and 121 ,22322 is Palindrome
+    
+  # 2 nd method  
+# x=int(input("Enter any Interger value: "))   #interger se string me change karne k leye bas str use kar k no se string me ho jayega
+# print(str(x) == str(x)[::-1])
