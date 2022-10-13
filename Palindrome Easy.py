@@ -1,4 +1,7 @@
-#Check Palindrome Number or String  :
+#Check Palindrome Number or String  : ye vo function hota hai jo ki reverse hota hai brabar
+
+ # a = 'ramar'
+# if ( a[0]==a[-1]):   #BAS ISME A Ko ZERO MAN K A Ko LAST SE BADAL DEYA AUR GHTA DEYA
 
 
 s = input("Enter Value  ")   #enter input 
