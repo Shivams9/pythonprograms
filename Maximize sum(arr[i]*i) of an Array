@@ -1,0 +1,9 @@
+a= [5, 3, 2, 4, 1]
+n=len(a)
+total=0
+a.sort()
+for i in range(0,n):
+    total+=i*a[i]
+    # Sum=sum(total)
+print(total)
+    
